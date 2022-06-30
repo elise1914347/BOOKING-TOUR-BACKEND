@@ -21,6 +21,7 @@ mongoose
   .then(() => {
     console.log("Database is well connected!");
   });
+  
 //server configuration
 const port = process.env.PORT || 4040;
 app.listen(port, () => {
